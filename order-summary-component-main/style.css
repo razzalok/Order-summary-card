@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0 auto;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  /* background-color: hsl(0, 25%, 31%); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  background-image: url("./images/pattern-background-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.container {
+  width: 400px;
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.container img {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.content {
+  text-align: center;
+  margin: 10px;
+}
+.content h3 {
+  margin-bottom: 10px;
+  font-weight: 900;
+  color: hsl(223, 61%, 11%);
+}
+.content p {
+  color: hsl(224, 23%, 55%);
+  margin: 0 10px;
+}
+.item {
+  display: flex;
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 10px;
+}
+.detail {
+  display: flex;
+
+  width: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+.detail img {
+  width: 50px;
+}
+.change-item {
+  width: 50%;
+  padding-left: 100px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+}
+.item-plan p {
+  color: hsl(224, 23%, 55%);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+.btn button {
+  margin: 5px 0;
+  padding: 10px 0;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  width: 300px;
+  font-weight: bold;
+}
+.payment-btn button {
+  background-color: hsl(245, 75%, 52%);
+  cursor: pointer;
+  color: #fff;
+}
+.cancel-btn button {
+  color: hsl(224, 23%, 55%);
+  margin-bottom: 20px;
+}
