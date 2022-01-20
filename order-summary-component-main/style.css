@@ -64,6 +64,9 @@ body {
   align-items: center;
   padding-top: 10px;
 }
+.item-plan h4 {
+  color: hsl(223, 61%, 11%);
+}
 .item-plan p {
   color: hsl(224, 23%, 55%);
 }
